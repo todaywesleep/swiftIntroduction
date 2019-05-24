@@ -7,12 +7,16 @@ PODS:
   - RealmSwift (3.15.0):
     - Realm (= 3.15.0)
   - SkeletonView (1.5)
+  - Socket.IO-Client-Swift (15.0.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-beta.5)
   - ReachabilitySwift
   - RealmSwift
   - SkeletonView
+  - Socket.IO-Client-Swift (~> 15.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -21,6 +25,8 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - SkeletonView
+    - Socket.IO-Client-Swift
+    - Starscream
 
 SPEC CHECKSUMS:
   Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
@@ -28,7 +34,9 @@ SPEC CHECKSUMS:
   Realm: 9b834e1be6062f544805252c812348872dc5d4ed
   RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
   SkeletonView: 6cbb80f82f8bdee3f9093e2fa03b84819b4bd826
+  Socket.IO-Client-Swift: c039a808195d22a7192962841b8c035cb61ea49e
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
 
-PODFILE CHECKSUM: 6d9244e9573eefb6864ca9fdc15f9d9881060e5c
+PODFILE CHECKSUM: db804df7c513cd65ca2d16c964840dca054c16fb
 
 COCOAPODS: 1.7.0.rc.2

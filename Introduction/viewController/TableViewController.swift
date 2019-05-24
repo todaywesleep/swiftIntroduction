@@ -18,8 +18,6 @@ class TableViewController: UIViewController {
     
     // Const section
     let reachability = Reachability()!
-    let alert: UIAlertController = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
-    let loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
     
     // Variables section
     var isDeviceOnline = false
@@ -36,7 +34,6 @@ class TableViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         self.tableView.reloadData()
-//        self.tableView.reloadSections(IndexSet(integer: 1), with: .none)
     }
     
     func initChildViews() {
@@ -45,12 +42,6 @@ class TableViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
-        
-        loadingIndicator.hidesWhenStopped = true
-        loadingIndicator.style = UIActivityIndicatorView.Style.gray
-        loadingIndicator.startAnimating();
-        
-        alert.view.addSubview(loadingIndicator)
     }
     
     @objc func addItemToCollection(){

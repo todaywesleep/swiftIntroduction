@@ -21,13 +21,15 @@
 		A17B53D4228EB4C200BE13BE /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B53D3228EB4C200BE13BE /* DescriptionViewController.swift */; };
 		A17B53DA228ED74700BE13BE /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B53D9228ED74700BE13BE /* ItemModel.swift */; };
 		A17B53DC228ED8C700BE13BE /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B53DB228ED8C700BE13BE /* RealmHelper.swift */; };
+		A1B238B92297D4E600B2C79A /* Sockets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B238B82297D4E600B2C79A /* Sockets.storyboard */; };
+		A1B238BB2297DD2700B2C79A /* SocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B238BA2297DD2700B2C79A /* SocketsViewController.swift */; };
+		A1B238BD2297DE5C00B2C79A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B238BC2297DE5C00B2C79A /* MessageCell.swift */; };
+		A1B238C02297DEDD00B2C79A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B238BF2297DEDD00B2C79A /* MessageModel.swift */; };
 		A1CF30F8229424A500FBCF54 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF30F7229424A500FBCF54 /* UIButtonExtensions.swift */; };
 		A1DC905F22952888004BDF36 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC905E22952888004BDF36 /* CollectionViewController.swift */; };
 		A1DC906122952CFB004BDF36 /* JokeItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC906022952CFB004BDF36 /* JokeItemViewCell.swift */; };
 		A1DC9067229536B7004BDF36 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC9066229536B7004BDF36 /* TabBarController.swift */; };
 		A1DC906C22956448004BDF36 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC906B22956448004BDF36 /* StackViewController.swift */; };
-		A1DC90712295945F004BDF36 /* StoryboardSeparate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DC90702295945F004BDF36 /* StoryboardSeparate.storyboard */; };
-		A1DC90732295988A004BDF36 /* SelectActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DC90722295988A004BDF36 /* SelectActivityViewController.swift */; };
 		A1DC90752295995B004BDF36 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DC90742295995B004BDF36 /* Launch.storyboard */; };
 		D7A56D6A5FB2C7DCF7497C23 /* Pods_IntroductionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D923845C91DA2947AD39341 /* Pods_IntroductionTests.framework */; };
 /* End PBXBuildFile section */
@@ -76,13 +78,15 @@
 		A17B53D3228EB4C200BE13BE /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		A17B53D9228ED74700BE13BE /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		A17B53DB228ED8C700BE13BE /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		A1B238B82297D4E600B2C79A /* Sockets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sockets.storyboard; sourceTree = "<group>"; };
+		A1B238BA2297DD2700B2C79A /* SocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketsViewController.swift; sourceTree = "<group>"; };
+		A1B238BC2297DE5C00B2C79A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A1B238BF2297DEDD00B2C79A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		A1CF30F7229424A500FBCF54 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
 		A1DC905E22952888004BDF36 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		A1DC906022952CFB004BDF36 /* JokeItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeItemViewCell.swift; sourceTree = "<group>"; };
 		A1DC9066229536B7004BDF36 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A1DC906B22956448004BDF36 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
-		A1DC90702295945F004BDF36 /* StoryboardSeparate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardSeparate.storyboard; sourceTree = "<group>"; };
-		A1DC90722295988A004BDF36 /* SelectActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewController.swift; sourceTree = "<group>"; };
 		A1DC90742295995B004BDF36 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		CBD956A28D0964C7FB69E244 /* Pods_Introduction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Introduction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -140,6 +144,7 @@
 		A1144EAB228B004500430D56 /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				A1B238BE2297DEB900B2C79A /* model */,
 				A1DC906522952F61004BDF36 /* extensions */,
 				A1DC906422952F37004BDF36 /* reusableCell */,
 				A1DC906322952F2E004BDF36 /* viewController */,
@@ -148,10 +153,9 @@
 				A1144EB3228B004600430D56 /* Assets.xcassets */,
 				A1144EB5228B004600430D56 /* LaunchScreen.storyboard */,
 				A1144EB8228B004600430D56 /* Info.plist */,
-				A17B53D9228ED74700BE13BE /* ItemModel.swift */,
 				A17B53DB228ED8C700BE13BE /* RealmHelper.swift */,
-				A1DC90702295945F004BDF36 /* StoryboardSeparate.storyboard */,
 				A1DC90742295995B004BDF36 /* Launch.storyboard */,
+				A1B238B82297D4E600B2C79A /* Sockets.storyboard */,
 			);
 			path = Introduction;
 			sourceTree = "<group>";
@@ -174,6 +178,15 @@
 			path = IntroductionUITests;
 			sourceTree = "<group>";
 		};
+		A1B238BE2297DEB900B2C79A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A17B53D9228ED74700BE13BE /* ItemModel.swift */,
+				A1B238BF2297DEDD00B2C79A /* MessageModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		A1DC906322952F2E004BDF36 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +195,7 @@
 				A17B53D3228EB4C200BE13BE /* DescriptionViewController.swift */,
 				A1DC9066229536B7004BDF36 /* TabBarController.swift */,
 				A1DC906B22956448004BDF36 /* StackViewController.swift */,
-				A1DC90722295988A004BDF36 /* SelectActivityViewController.swift */,
+				A1B238BA2297DD2700B2C79A /* SocketsViewController.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 				A1DC906022952CFB004BDF36 /* JokeItemViewCell.swift */,
 				A124385E228C30BD00AE857B /* ButtonCell.swift */,
 				A124385C228C2A2600AE857B /* ItemViewCell.swift */,
+				A1B238BC2297DE5C00B2C79A /* MessageCell.swift */,
 			);
 			path = reusableCell;
 			sourceTree = "<group>";
@@ -338,8 +352,8 @@
 			files = (
 				A1144EB7228B004600430D56 /* LaunchScreen.storyboard in Resources */,
 				A1DC90752295995B004BDF36 /* Launch.storyboard in Resources */,
+				A1B238B92297D4E600B2C79A /* Sockets.storyboard in Resources */,
 				A1144EB4228B004600430D56 /* Assets.xcassets in Resources */,
-				A1DC90712295945F004BDF36 /* StoryboardSeparate.storyboard in Resources */,
 				A1144EB2228B004500430D56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,16 +468,18 @@
 				A17B53DC228ED8C700BE13BE /* RealmHelper.swift in Sources */,
 				A1243855228C21D600AE857B /* TableViewController.swift in Sources */,
 				A17B53DA228ED74700BE13BE /* ItemModel.swift in Sources */,
+				A1B238BB2297DD2700B2C79A /* SocketsViewController.swift in Sources */,
 				A1DC906122952CFB004BDF36 /* JokeItemViewCell.swift in Sources */,
 				A1DC905F22952888004BDF36 /* CollectionViewController.swift in Sources */,
-				A1DC90732295988A004BDF36 /* SelectActivityViewController.swift in Sources */,
 				A124385D228C2A2600AE857B /* ItemViewCell.swift in Sources */,
 				A1144EAD228B004500430D56 /* AppDelegate.swift in Sources */,
 				A1CF30F8229424A500FBCF54 /* UIButtonExtensions.swift in Sources */,
 				A1DC9067229536B7004BDF36 /* TabBarController.swift in Sources */,
+				A1B238C02297DEDD00B2C79A /* MessageModel.swift in Sources */,
 				A1DC906C22956448004BDF36 /* StackViewController.swift in Sources */,
 				A17B53D4228EB4C200BE13BE /* DescriptionViewController.swift in Sources */,
 				A124385F228C30BD00AE857B /* ButtonCell.swift in Sources */,
+				A1B238BD2297DE5C00B2C79A /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

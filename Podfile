@@ -10,6 +10,7 @@ target 'Introduction' do
   pod 'RealmSwift'
   pod 'ReachabilitySwift'
   pod 'SkeletonView'
+  pod 'Socket.IO-Client-Swift', '~> 15.0.0'
 
   target 'IntroductionTests' do
     inherit! :search_paths

@@ -37,9 +37,6 @@ import UIKit
         super.awakeFromNib()
         
         layer.masksToBounds = true
-//        layer.borderWidth = 2
-//        layer.borderColor = UIColor.black.cgColor
-        
         showSkeleton()
     }
 }
